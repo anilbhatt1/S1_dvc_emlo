@@ -1,7 +1,7 @@
 import pytest
 from github import Github
 
-g = Github("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")
+g = Github("anilbhatt1", "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")
 
 repo = g.get_repo("anilbhatt1/S1_dvc_emlo")
 contents = repo.get_contents("")
